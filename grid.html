@@ -17,7 +17,6 @@
       <div class="row">
         <div class="col-12">
           <h1>Products</h1>
-
           <ul>
             <li>Ekranuose nuo 1200px plocio, turetume rodyti 2 stulpelius</li>
             <li>Ekranuose nuo 1000px plocio, turetume rodyti 4 stulpelius</li>
@@ -27,7 +26,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <div class="col-xl-6 col-lg-3 col-md-4 col-sm-12">
             <div class="card mb-3" style="width: 100%">
               <img
@@ -42,7 +41,22 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a href="#" class="btn btn-primary">Buy Now</a>
+                <style>
+                  .card-footer {
+                    text-align: center;
+                  }
+                </style>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-4 col-xl-4 col-lg-12 col-md-12">
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                  </div>
+                  <div class="col-4 col-xl-4 col-lg-12 col-md-12">
+                    <p class="mb-2 mt-2"><strike> $200</strike></p>
+                  </div>
+                  <div class="col-4 col-xl-4 col-lg-12 col-md-12">
+                    <p class="mb-2 mt-2">$150</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -83,7 +97,7 @@
             </div>
           </div>
 
-          <div class="col-xl-6 col-lg-3 col-md-12 col-sm-12">
+          <div class="col-xl-6 col-lg-3 col-md-4 col-sm-12">
             <div class="card mb-3" style="width: 100%">
               <img
                 src="https://bit.ly/2SiZpPj"
